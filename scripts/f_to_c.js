@@ -3,6 +3,9 @@
 const txtInput = document.getElementById("txtInput");
 const txtOutput = document.getElementById("txtOutput");
 const convertBtn = document.getElementById("convertBtn");
+const myForm = document.getElementById("myForm");
+const resetBtn = document.getElementById("resetBtn");
+
 
 
 // This will "wire up" the init function 

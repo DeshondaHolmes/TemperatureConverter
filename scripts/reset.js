@@ -9,9 +9,12 @@ window.onload = init;
 
 function init(){
     resetBtn.onclick = onResetBtnClicked;
+    console.log("click");
     
 }
 
-function resetForm() {
-    document.getElementById("resetBtn").reset();
-  }
+function onResetBtnClicked(){
+        resetBtn.onResetBtnClicked =
+         txtInput.value = "";
+
+}
