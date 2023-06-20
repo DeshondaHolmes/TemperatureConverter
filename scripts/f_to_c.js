@@ -16,6 +16,8 @@ window.onload = init;
 // with the window.onload command above.
 function init(){
     convertBtn.onclick = onConvertBtnClicked;
+    resetBtn.onclick = onResetBtnClicked;
+
     
 }
 
@@ -41,4 +43,9 @@ function onConvertBtnClicked(){
 }
 
 
+function onResetBtnClicked(){
 
+    txtOutput.value="";
+    txtInput.value="";
+
+}

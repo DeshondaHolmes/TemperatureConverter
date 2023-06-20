@@ -1,20 +1,20 @@
-"use strict";
+// "use strict";
 
 
-const myForm = document.getElementById("myForm");
-const resetBtn = document.getElementById("resetBtn");
+// const myForm = document.getElementById("myForm");
+// const resetBtn = document.getElementById("resetBtn");
 
 
-window.onload = init;
+// window.onload = init;
 
-function init(){
-    resetBtn.onclick = onResetBtnClicked;
-    console.log("click");
+// function init(){
+//     resetBtn.onclick = onResetBtnClicked;
+//     console.log("click");
     
-}
+// }
 
-function onResetBtnClicked(){
-        resetBtn.onResetBtnClicked =
-         txtInput.value = "";
+// function onResetBtnClicked(){
+//         resetBtn.onResetBtnClicked =
+//          txtInput.value = "";
 
-}
+// }
